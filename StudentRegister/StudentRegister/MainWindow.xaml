@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
 
     <DockPanel>
-        <ListBox DockPanel.Dock="Right" Name="StudentList" ItemsSource ="{Binding}" IsSynchronizedWithCurrentItem="False">
+        <ListBox DockPanel.Dock="Right" Name="StudentList" ItemsSource ="{Binding}" IsSynchronizedWithCurrentItem="True">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                 <StackPanel Orientation=" Horizontal">
